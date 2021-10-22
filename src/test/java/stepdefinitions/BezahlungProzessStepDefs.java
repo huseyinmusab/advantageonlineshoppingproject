@@ -192,13 +192,17 @@ public class BezahlungProzessStepDefs {
     }
     @Then("user verify the richtige Preis")
     public void user_verify_the_total_payment() {
+        //ICH KONNTE NICHT VERIFIZEREB WEIL DIE WEBSITE NICHT FUNKTIONIERT
+
+
 //        int givennumber = Integer.parseInt().getText());
 //        String gPrice = orderPaymentPage.gesamtePrice.getText();
 //        int acvalue=Integer.parseInt(gPrice);
 //        Assert.assertTrue(acvalue,"$119.97");
 //        Assert.assertEquals(acvalue,119.97);
-        String a =orderPaymentPage.richtigePrice.getText();
-        System.out.println(a);
+//        String a =orderPaymentPage.richtigePrice.getText();
+//        System.out.println(a);
+        Assert.assertTrue(orderPaymentPage.richtigePrice.isDisplayed());
 
     }
 
@@ -206,6 +210,7 @@ public class BezahlungProzessStepDefs {
     @Then("user verify the gesamte Preis")
     public void user_verify_the_gesamte_preis() {
 
+        Assert.assertTrue(orderPaymentPage.gesamtePrice.isDisplayed());
         //Assert.assertEquals(acvalue,123);
 
 
