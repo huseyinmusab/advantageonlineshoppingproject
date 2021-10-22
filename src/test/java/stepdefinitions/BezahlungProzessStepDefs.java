@@ -77,6 +77,7 @@ public class BezahlungProzessStepDefs {
     @Given("user choose the quantity of black color")
     public void user_choose_the_quantity_of_clack_color(){
 
+// the default number is already one
 
 //           for (int i=1; i<100; i++){
 //               if (i==2){
@@ -84,6 +85,7 @@ public class BezahlungProzessStepDefs {
 //               }
 //               logitechPage.quantityPlusButton.click();
 //            }
+
 
     }
 
@@ -107,8 +109,9 @@ public class BezahlungProzessStepDefs {
     @Given("user choose the quantity of yellow color")
     public void user_choose_the_quantity_of_yellow_color() {
 
-        //wir wissen nicht vie viel Headphones einkauft wird.ich habe max 100 festgesstellt.
-        // Loop macht Kodes langsamer aber was wäre, wenn der Testfall anders wäre?
+        //Normalerweise ein click ist genug hier,das macht 2
+        //Wenn der Testfall anders wäre?zB 5 Headphones wird verkauft?.ich habe max 100 festgestellt.
+        // Loop macht Kodes langsamer aber es gut wenn mehr Headphones gekauft wird
         for (int i=1; i<100; i++){
             if (i==2){
                 break;
@@ -126,6 +129,7 @@ public class BezahlungProzessStepDefs {
 //        Actions actions = new Actions(Driver.getDriver());
 //        actions.moveToElement(logitechPage.shoopingCartIcon).perform();
 //        ReusableMethods.waitFor(7);
+//we can also hoover the mous on icon then we follow other steps for test.i preferred to click directly
 
     }
 
@@ -153,7 +157,10 @@ public class BezahlungProzessStepDefs {
 
     @Given("user does not click on savechanges checkbox button")
     public void user_does_not_click_on_savechanges_checkbox_button() {
-        //ich möchte diesse checkbox nicht klicken
+        //ich möchte diese checkbox nicht klicken,weil ich kan nicht wieder und wieder tests laufen.
+        //die app remembers the old credentials and it writes automatically,whaen i run my test again ,my new credentials
+        //is writing on old credentials.thats why i would like the clean safepayusername and safepaypassword boxess at first
+
         if(orderPaymentPage.saveCheckBox.isSelected()){
             orderPaymentPage.saveCheckBox.click();
         }
@@ -192,16 +199,16 @@ public class BezahlungProzessStepDefs {
     }
     @Then("user verify the richtige Preis")
     public void user_verify_the_total_payment() {
-        //ICH KONNTE NICHT VERIFIZEREB WEIL DIE WEBSITE NICHT FUNKTIONIERT
+        //ICH KONNTE NICHT VERIFIZEREN WEIL DIE WEBSITE NICHT FUNKTIONIERT
 
 
-//        int givennumber = Integer.parseInt().getText());
-//        String gPrice = orderPaymentPage.gesamtePrice.getText();
-//        int acvalue=Integer.parseInt(gPrice);
-//        Assert.assertTrue(acvalue,"$119.97");
-//        Assert.assertEquals(acvalue,119.97);
+
+//        String rPrice = orderPaymentPage.gesamtePrice.getText();
+//        System.out.println(rPrice);
+//        Assert.assertTrue(rPrice,"$119.97");==> it doesnt work because it gives me comperation error,
+//        I was looking for how i handle this
 //        String a =orderPaymentPage.richtigePrice.getText();
-//        System.out.println(a);
+
         Assert.assertTrue(orderPaymentPage.richtigePrice.isDisplayed());
 
     }
@@ -210,11 +217,13 @@ public class BezahlungProzessStepDefs {
     @Then("user verify the gesamte Preis")
     public void user_verify_the_gesamte_preis() {
 
+
         Assert.assertTrue(orderPaymentPage.gesamtePrice.isDisplayed());
         //Assert.assertEquals(acvalue,123);
-
+        //String gp=orderPaymentPage.gesamtePrice.getText();
 
     }
+
 
 
 

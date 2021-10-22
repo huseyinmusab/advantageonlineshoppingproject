@@ -1,0 +1,301 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User navigates to app",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user goes to the url",
+            "match": {
+              "location": "stepdefinitions.CreateAccountStepDefs.user_goes_to_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks on the login icon",
+            "match": {
+              "location": "stepdefinitions.CreateAccountStepDefs.user_clicks_on_the_login_icon()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-22T11:16:00.519Z",
+        "line": 7,
+        "name": "User should complete the Bezahlung",
+        "description": "",
+        "id": "user-logs-in-to-app;user-should-complete-the-bezahlung",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters Username for login",
+            "match": {
+              "location": "stepdefinitions.BezahlungProzessStepDefs.user_enters_username_for_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters Password for login",
+            "match": {
+              "location": "stepdefinitions.BezahlungProzessStepDefs.user_enters_password_for_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on SignIn button",
+            "match": {
+              "location": "stepdefinitions.BezahlungProzessStepDefs.user_clicks_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on Headphones image",
+            "match": {
+              "location": "stepdefinitions.BezahlungProzessStepDefs.user_clicks_on_headphones_image()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks on Logitech Usb Headset",
+            "match": {
+              "location": "stepdefinitions.BezahlungProzessStepDefs.user_clicks_on_logitech_usb_headset()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks black color",
+            "match": {
+              "location": "stepdefinitions.BezahlungProzessStepDefs.user_clicks_black_color()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user choose the quantity of black color",
+            "match": {
+              "location": "stepdefinitions.BezahlungProzessStepDefs.user_choose_the_quantity_of_clack_color()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks on Add to Cart button",
+            "match": {
+              "location": "stepdefinitions.BezahlungProzessStepDefs.user_clicks_on_add_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user choose the yellow color",
+            "match": {
+              "location": "stepdefinitions.BezahlungProzessStepDefs.user_choose_the_yellow_color()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user choose the quantity of yellow color",
+            "match": {
+              "location": "stepdefinitions.BezahlungProzessStepDefs.user_choose_the_quantity_of_yellow_color()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user clicks on Add to Cart button",
+            "match": {
+              "location": "stepdefinitions.BezahlungProzessStepDefs.user_clicks_on_add_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user clicks on the shoppingCartIcon",
+            "match": {
+              "location": "stepdefinitions.BezahlungProzessStepDefs.user_hoover_over_to_the_shopping_cart_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user clicks on Checkout button",
+            "match": {
+              "location": "stepdefinitions.BezahlungProzessStepDefs.user_clicks_on_checkout_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user clicks on Next button to payment method",
+            "match": {
+              "location": "stepdefinitions.BezahlungProzessStepDefs.user_clicks_on_next_button_to_payment_method()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user clicks on SafePay button",
+            "match": {
+              "location": "stepdefinitions.BezahlungProzessStepDefs.user_clicks_on_safe_pay_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user does not click on savechanges checkbox button",
+            "match": {
+              "location": "stepdefinitions.BezahlungProzessStepDefs.user_does_not_click_on_savechanges_checkbox_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15629600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user enters SafePay username",
+            "match": {
+              "location": "stepdefinitions.BezahlungProzessStepDefs.user_enters_safe_pay_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user enters SafePay password",
+            "match": {
+              "location": "stepdefinitions.BezahlungProzessStepDefs.user_enters_safe_pay_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user clicks on PayNow button",
+            "match": {
+              "location": "stepdefinitions.BezahlungProzessStepDefs.user_clicks_on_pay_now_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user verify the richtige Preis",
+            "match": {
+              "location": "stepdefinitions.BezahlungProzessStepDefs.user_verify_the_total_payment()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user verify the gesamte Preis",
+            "match": {
+              "location": "stepdefinitions.BezahlungProzessStepDefs.user_verify_the_gesamte_preis()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@bezahlung"
+          }
+        ]
+      }
+    ],
+    "name": "user logs in to app",
+    "description": "",
+    "id": "user-logs-in-to-app",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/bezahlung_prozess.feature",
+    "tags": [
+      {
+        "name": "@bezahlung",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

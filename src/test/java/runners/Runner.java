@@ -9,6 +9,7 @@ import org.junit.runner.RunWith;
         //html =TYPE OF THE REPORT
         //target = destination(REPORT FOLDER)
         //default-cucumber-reports=REPORT NAME
+
         plugin = {
                 "html:target/default-cucumber-reports ",
                 "json:target/json-report/cucumber.json",

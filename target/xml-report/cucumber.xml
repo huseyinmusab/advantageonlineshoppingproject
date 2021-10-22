@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.328">
+    <testcase classname="user logs in to app" name="User should complete the Bezahlung" time="0.093">
+        <system-out>
+            <![CDATA[Given user goes to the url..................................................passed
+And user clicks on the login icon...........................................passed
+Given user enters Username for login........................................passed
+And user enters Password for login..........................................passed
+And user clicks on SignIn button............................................passed
+And user clicks on Headphones image.........................................passed
+And user clicks on Logitech Usb Headset.....................................passed
+And user clicks black color.................................................passed
+And user choose the quantity of black color.................................passed
+And user clicks on Add to Cart button.......................................passed
+And user choose the yellow color............................................passed
+And user choose the quantity of yellow color................................passed
+And user clicks on Add to Cart button.......................................passed
+And user clicks on the shoppingCartIcon.....................................passed
+And user clicks on Checkout button..........................................passed
+And user clicks on Next button to payment method............................passed
+And user clicks on SafePay button...........................................passed
+And user does not click on savechanges checkbox button......................passed
+And user enters SafePay username............................................passed
+And user enters SafePay password............................................passed
+And user clicks on PayNow button............................................passed
+Then user verify the richtige Preis.........................................passed
+Then user verify the gesamte Preis..........................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

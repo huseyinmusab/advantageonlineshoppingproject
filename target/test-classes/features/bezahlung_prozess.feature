@@ -1,10 +1,10 @@
-@login
+@bezahlung
   Feature: user logs in to app
     Background:User navigates to app
       Given user goes to the url
       And   user clicks on the login icon
 
-    Scenario:User logs in to app
+    Scenario:User should complete the Bezahlung
       Given  user enters Username for login
       And    user enters Password for login
       And    user clicks on SignIn button
